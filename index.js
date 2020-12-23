@@ -34,4 +34,5 @@ function actionApplyer(start, arr) {
   arr.map(x => {
     start = x(start)
   })
+  return start
 }
