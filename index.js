@@ -12,4 +12,4 @@ function wrapAdjective(str = "*") {
   }
 }
 
-let Calc
+let Calculater = 
