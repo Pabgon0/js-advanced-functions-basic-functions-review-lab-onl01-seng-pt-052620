@@ -28,7 +28,10 @@ let Calculator = {
 }
 
 function actionApplyer(start, arr) {
-  case (arr.length === 0) {
-    
+  if (arr.length === 0) {
+    return start
   }
+  arr.map(x => {
+    start = x(start)
+  })
 }
