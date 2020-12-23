@@ -11,3 +11,5 @@ function wrapAdjective(str = "*") {
     return `You are ${str}${prm}${str}!`
   }
 }
+
+let Calc
