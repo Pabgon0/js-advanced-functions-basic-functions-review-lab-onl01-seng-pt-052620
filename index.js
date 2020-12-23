@@ -13,14 +13,14 @@ function wrapAdjective(str = "*") {
 }
 
 let Calculator = {
-  add: function(a, b) {
+  add: (a,b) => {
     return a + b  
   },
-  subtract: function(a, b) {
-    a - b
+  subtract: (a,b) => {
+    return a - b
   },
-  multiply: function(a, b) {
-    a * b
+  multiply: (a,b) => {
+    return a * b
   },
   divide: (a,b) => {
     return a / b
