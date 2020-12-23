@@ -28,5 +28,7 @@ let Calculator = {
 }
 
 function actionApplyer(start, arr) {
-  
+  case (arr.length === 0) {
+    
+  }
 }
