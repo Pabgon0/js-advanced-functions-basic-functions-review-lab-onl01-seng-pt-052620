@@ -12,7 +12,7 @@ function wrapAdjective(str = "*") {
   }
 }
 
-let Calculater = {
+let Calculator = {
   add: function(a, b) {
     return a + b  
   },
