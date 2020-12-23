@@ -8,6 +8,6 @@ let mondayWork = function(activity = "go to the office") {
 
 function wrapAdjective(str = "*") {
   return function(prm = "special") {
-    return `You are ${str}${prm}${str}`
+    return `You are ${str}${prm}${str}!`
   }
 }
