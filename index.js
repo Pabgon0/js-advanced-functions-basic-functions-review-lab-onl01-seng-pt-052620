@@ -23,6 +23,6 @@ let Calculator = {
     a * b
   },
   divide: (a,b) => {
-    a / b
+    return a / b
   }
 }
